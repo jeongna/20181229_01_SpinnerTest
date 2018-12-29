@@ -17,4 +17,14 @@
         android:layout_height="wrap_content"
         android:entries="@array/job_kind"></Spinner>
 
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="최종학력"/>
+
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:entries="@array/final_school"></Spinner>
+
 </LinearLayout>
